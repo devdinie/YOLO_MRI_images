@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "913ec3694bf3660a93fbd733211571af",
+        "name": "EXIM-19-JCPS-HIFU-BRWAY5164.jpg",
+        "path": "file:C:/Users/casti/Documents/Final_Project2/TrainImagesnew/EXIM-19-JCPS-HIFU-BRWAY5164.jpg",
+        "size": {
+            "width": 800,
+            "height": 600
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "uRMMKhC8d",
+            "type": "RECTANGLE",
+            "tags": [
+                "BN_175_Tumor"
+            ],
+            "boundingBox": {
+                "height": 95.91474245115452,
+                "width": 134.22103861517976,
+                "left": 208.4332218500333,
+                "top": 226.95382966876664
+            },
+            "points": [
+                {
+                    "x": 208.4332218500333,
+                    "y": 226.95382966876664
+                },
+                {
+                    "x": 342.6542604652131,
+                    "y": 226.95382966876664
+                },
+                {
+                    "x": 342.6542604652131,
+                    "y": 322.86857211992117
+                },
+                {
+                    "x": 208.4332218500333,
+                    "y": 322.86857211992117
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

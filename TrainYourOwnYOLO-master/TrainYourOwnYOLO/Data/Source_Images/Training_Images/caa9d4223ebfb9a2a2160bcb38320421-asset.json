@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "caa9d4223ebfb9a2a2160bcb38320421",
+        "name": "EXIM-19-JCPS-HIFU-WAGRI5155.jpg",
+        "path": "file:C:/Users/casti/Documents/Final_Project2/TrainImagesnew/EXIM-19-JCPS-HIFU-WAGRI5155.jpg",
+        "size": {
+            "width": 800,
+            "height": 600
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ndGxTiQ2y",
+            "type": "RECTANGLE",
+            "tags": [
+                "R1_Tumor"
+            ],
+            "boundingBox": {
+                "height": 94.49377246267207,
+                "width": 157.65645805592544,
+                "left": 241.81091877496672,
+                "top": 220.55951350535636
+            },
+            "points": [
+                {
+                    "x": 241.81091877496672,
+                    "y": 220.55951350535636
+                },
+                {
+                    "x": 399.4673768308922,
+                    "y": 220.55951350535636
+                },
+                {
+                    "x": 399.4673768308922,
+                    "y": 315.05328596802843
+                },
+                {
+                    "x": 241.81091877496672,
+                    "y": 315.05328596802843
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
