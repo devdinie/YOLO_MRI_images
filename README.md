@@ -1,6 +1,6 @@
 # YOLO_MRI_images
 
-I do not claim aouthorship for the scripts in this repository! 
+I retrained a YOLO for recognizing Tumors in MRI images.
 
 These scripts are taken from https://github.com/AntonMu/TrainYourOwnYOLO
 
