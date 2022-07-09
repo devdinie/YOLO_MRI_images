@@ -6,21 +6,21 @@ This repo let's you train a custom image detector using the state-of-the-art [YO
 
 To build and test your YOLO object detection algorithm follow the below steps:
 
- 1. [Image Annotation](/1_Image_Annotation/)
+ 1. [Image Annotation](1_Image_Annotation/)
 	 - Install Microsoft's Visual Object Tagging Tool (VoTT)
 	 - Annotate images
- 2. [Training](/2_Training/)
+ 2. [Training](2_Training/)
  	- Download pre-trained weights
  	- Train your custom YOLO model on annotated images 
- 3. [Inference](/3_Inference/)
+ 3. [Inference](3_Inference/)
  	- Detect objects in new images and videos
 
 ## Repo structure
-+ [`1_Image_Annotation`](/1_Image_Annotation/): Scripts and instructions on annotating images
-+ [`2_Training`](/2_Training/): Scripts and instructions on training your YOLOv3 model
-+ [`3_Inference`](/3_Inference/): Scripts and instructions on testing your trained YOLO model on new images and videos
-+ [`Data`](/Data/): Input Data, Output Data, Model Weights and Results
-+ [`Utils`](/Utils/): Utility scripts used by main scripts
++ [`1_Image_Annotation`](1_Image_Annotation/): Scripts and instructions on annotating images
++ [`2_Training`](2_Training/): Scripts and instructions on training your YOLOv3 model
++ [`3_Inference`](3_Inference/): Scripts and instructions on testing your trained YOLO model on new images and videos
++ [`Data`](Data/): Input Data, Output Data, Model Weights and Results
++ [`Utils`](Utils/): Utility scripts used by main scripts
 
 ## Getting Started
 
@@ -70,24 +70,24 @@ pip install -r requirements.txt
 If this fails, you may have to upgrade your pip version first with `pip install pip --upgrade`. If your system has working CUDA drivers, it will use your GPU automatically for training and inference.
 
 ## Quick Start (Inference only)
-To test the cat face detector on test images located in [`TrainYourOwnYOLO/Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) run the `Minimal_Example.py` script in the root folder with:
+To test the cat face detector on test images located in [`TrainYourOwnYOLO/Data/Source_Images/Test_Images`](Data/Source_Images/Test_Images) run the `Minimal_Example.py` script in the root folder with:
 
 ```
 python Minimal_Example.py
 ```
 
-The outputs are saved in [`TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detection_Results`](/Data/Source_Images/Test_Image_Detection_Results). This includes:
+The outputs are saved in [`TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detection_Results`](Data/Source_Images/Test_Image_Detection_Results). This includes:
  - Cat pictures with bounding boxes around faces with confidence scores and
- - [`Detection_Results.csv`](/Data/Source_Images/Test_Image_Detection_Results/Detection_Results.csv) file with file names and locations of bounding boxes.
+ - [`Detection_Results.csv`](Data/Source_Images/Test_Image_Detection_Results/Detection_Results.csv) file with file names and locations of bounding boxes.
 
- If you want to detect cat faces in your own pictures, replace the cat images in [`Data/Source_Images/Test_Images`](/Data/Source_Images/Test_Images) with your own images.
+ If you want to detect cat faces in your own pictures, replace the cat images in [`Data/Source_Images/Test_Images`](Data/Source_Images/Test_Images) with your own images.
 
 ## Full Start (Training and Inference)
 
 To train your own custom YOLO object detector please follow the instructions detailed in the three numbered subfolders of this repo:
-- [`1_Image_Annotation`](/1_Image_Annotation/),
-- [`2_Training`](/2_Training/) and
-- [`3_Inference`](/3_Inference/).
+- [`1_Image_Annotation`](1_Image_Annotation/),
+- [`2_Training`](2_Training/) and
+- [`3_Inference`](3_Inference/).
  
 **To make everything run smoothly it is highly recommended to keep the original folder structure of this repo!**
 
@@ -141,7 +141,7 @@ Many thanks to [Niklas Wilson](https://github.com/NiklasWilson) for contributing
 ## Filing an Issue
 If you would like to file an issue, please use the provided issue template and make sure to complete all fields. This makes it easier to reproduce the issue for someone trying to help you. 
 
-![Issue](/Utils/Screenshots/Issue.gif)
+![Issue](Utils/Screenshots/Issue.gif)
 
 Issues without a completed issue template will be closed after 7 days. 
 
