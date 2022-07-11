@@ -56,11 +56,14 @@ def get_random_data(
 
     # This type of splitting makes sure that it is compatible with spaces in folder names
     # We split at the first space that is followed by a number
+    
     tmp_split = re.split("( \d)", annotation_line, maxsplit=1)
+    
     if len(tmp_split) > 2:
         line = tmp_split[0], tmp_split[1] + tmp_split[2]
     else:
         line = tmp_split
+       
     # line[0] contains the filename
 
     image = Image.open(line[0])
