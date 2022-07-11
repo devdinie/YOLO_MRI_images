@@ -226,6 +226,7 @@ def ChangeToOtherMachine(filelist, repo="TrainYourOwnYOLO", remote_machine=""):
 
     """
     filelist = [x.replace("\\", "/") for x in filelist]
+    
     if repo[-1] == "/":
         repo = repo[:-1]
     if remote_machine:
@@ -233,14 +234,14 @@ def ChangeToOtherMachine(filelist, repo="TrainYourOwnYOLO", remote_machine=""):
     else:
         prefix = ((os.getcwd().split(repo))[0]).replace("\\", "/")
     new_list = []
-
+    
     for file in filelist:
-        suffix = (file.split(repo))[1]
+        suffix = (file.split(repo))[2]
+        
         if suffix[0] == "/":
             suffix = suffix[1:]
-        new_list.append(os.path.join(prefix, repo + "/", suffix).replace("\\", "/"))
-    print(
-        "8888888888888888888*********************************98888888888888888888888888888888888"
-    )
+        new_list.append(os.path.join(prefix,repo+(file.split(repo))[1] ,repo,suffix).replace("\\", "/"))
+        
+    print("--------------------------------------------------------------" )
     print(new_list)
     return new_list
